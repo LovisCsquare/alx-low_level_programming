@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
- *   The printf Function
+ *   main - The printf Function
+ *   return: 0
 */
 int main(void)
 {
