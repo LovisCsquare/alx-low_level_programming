@@ -8,11 +8,11 @@ int main(void)
 	int i;
 
 	i = 0;
-	while (i <= 9)
+	while (i <= 10)
 	{
 		putchar((i % 10) + '0');
 		i++;
-		if (i == 8)
+		if (i == 9)
 			continue;
 		putchar(',');
 		putchar(' ');
