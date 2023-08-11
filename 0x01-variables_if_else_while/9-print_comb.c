@@ -7,13 +7,11 @@ int main(void)
 {
 	int i;
 
-	i = 0;
-	while (i <= 9)
+	for (i = 0; i < 10; i++
 	{
-		putchar((i % 10) + '0');
-		i++;
+		putchar((i % 10) + '0');9-print_comb.c
 		if (i == 9)
-			break;
+			continue;
 		putchar(',');
 		putchar(' ');
 	}
