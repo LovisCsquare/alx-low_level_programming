@@ -9,8 +9,10 @@ int main(void)
 	char string;
 
 	i = 0;
-	for (; i < 10;)
-		putchar((i % 10) + '0', i++);
+	do {
+		putchar((i % 10) + '0');
+		i++;
+	} while (i < 10);
 
 	for (string = 'a'; string <= 'f'; string++)
 	{
