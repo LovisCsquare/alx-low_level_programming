@@ -9,14 +9,15 @@ int main(void)
 	char string;
 
 	i = 0;
-	while (i < 10)
-		putchar((i % 10) + '0');
-	i++;
+	for (; i < 10;)
+		putchar((i % 10) + '0', i++);
 
-	for (string = 'A'; string <= 'F'; string++)
+	for (string = 'a'; string <= 'f'; string++)
+	{
 		putchar(string);
+	}
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
