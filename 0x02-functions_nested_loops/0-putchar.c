@@ -14,5 +14,6 @@ int main(void)
 	_putchar('u');
 	_putchar('t');
 	_putchar('p');
+	_putchar('\n');
 	return (0);
 }
