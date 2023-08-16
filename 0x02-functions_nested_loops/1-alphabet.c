@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - function that prints letters of the alphabets in lowercase
+ * print_alphabet - function that prints letters of the alphabets in lowercase
  * Return: 0
  */
 
-void print_alphabet(void)
+Ioid print_alphabet(void)
 {
 	char letter;
 
