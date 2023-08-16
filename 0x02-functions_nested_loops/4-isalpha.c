@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int_isalpha - Function checking alphabetic character
+ * _isalpha - Function checking alphabetic character
  * @c: The character to be verified
  * Return: 1 for alphabetic character or 0 otherwise
  */
