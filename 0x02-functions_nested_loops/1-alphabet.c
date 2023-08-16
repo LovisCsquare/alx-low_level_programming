@@ -4,14 +4,10 @@
  * Return: 0
  * 1-alphabet.c
  */
-int main(void)
+int print_alphabet(void)
 {
-	void print_alphabet(void)
-	{
-		char letter;
-		for (letter = 'a'; letter <= 'z'; letter++)
-			_putchar(letter);
-		_putchar('\n');
-	}
-	return (0);
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+	_putchar('\n');
 }
