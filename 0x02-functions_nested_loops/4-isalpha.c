@@ -2,7 +2,7 @@
 /**
  * int_isalpha - Function checking alphabetic character
  * @c: The character to be verified
- * Return: 1 for success or 0 otherwise
+ * Return: 1 for alphabetic character or 0 otherwise
  */
 int _isapha(int c)
 {
