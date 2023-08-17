@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum + j; 
+			sum =+ j;
 		}
 		n = j + k;
 		j = k;
