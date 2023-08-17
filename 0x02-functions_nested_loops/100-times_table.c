@@ -46,7 +46,7 @@ void print_times_table(int n)
 					_putchar((k % 10) + '0');
 				}
 			}
-			_putchar('\n')100-times_table.c100-times_table.c
+			_putchar('\n');
 		}
 	}
 }
