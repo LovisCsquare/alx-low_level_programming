@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 /**
  * main - sum of multiples
  * Return: 0
