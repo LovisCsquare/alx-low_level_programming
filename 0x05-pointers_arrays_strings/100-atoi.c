@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _atoi - changes a string to an int
  * @s: the string to be changed
@@ -7,9 +6,11 @@
  */
 int _atoi(char *s)
 {
-	int i = 1;
+	int i;
 	unsigned int num = 0;
 
+	num = 0;
+	i = 1;
 	do {
 		if (*s == '-')
 			i *= -1;
