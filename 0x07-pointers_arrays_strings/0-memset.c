@@ -4,6 +4,7 @@
  * The first n bytes of the memory area
  * pointed to by s with he contant byte b
  * @s: target
+ * @b: constant type
  * @n: number of byte
  * Return: returns new value of target
  */
