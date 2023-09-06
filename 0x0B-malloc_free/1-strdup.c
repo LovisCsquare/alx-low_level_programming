@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * -strdup - returns a pointer to a newly allocated memory space
+ * _strdup - returns a pointer to a newly allocated memory space
  * @str: string to be copied
  * Return: NULL in case of error.1-strdup.c
  * 1-strdup.c1-strdup.c1-strdup.c1-strdup.c
